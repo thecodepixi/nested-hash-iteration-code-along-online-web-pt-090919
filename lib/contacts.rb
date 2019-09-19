@@ -16,7 +16,8 @@ require 'pry'
   
 def remove_strawberry(contacts)
   contacts["Freddy Mercury"].each do |attribute, value|
-    if attribute == :favorite_ice_cream_flavors && attribute.has_value
+    if attribute == :favorite_ice_cream_flavors && value.
+      :favorite_ice_cream_flavors.
     end 
   end 
 end
